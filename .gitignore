@@ -1,0 +1,20 @@
+# Default deny: only reviewed source files are tracked.
+/*
+!/.gitignore
+!/LICENSE
+!/README.md
+!/script/
+/script/*
+!/scripts/
+/scripts/*
+!/script/analyze_sample_age_hdl_cec.R
+!/script/analyze_nmr_cec_dementia_status.R
+!/script/analyze_nmr_cec_death_dsr.R
+!/script/analyze_ethanol_nmr_impact.R
+!/script/clean_ethanol_table.py
+!/script/merge_lipoprofiles.py
+!/scripts/analyze_cec.py
+
+# Data, results, manuscripts, private_inputs.json and dependencies stay local.
+# The question-report script contains embedded research findings and stays local.
+# Review each new source file before adding it to this allowlist.
